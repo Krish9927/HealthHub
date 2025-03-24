@@ -4,7 +4,7 @@
 }
 body{
     background-color: rgba(128, 128, 128, 0.186);
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 .nav{
     height: 35%;
@@ -116,9 +116,10 @@ body{
     background-color: white;
     margin: 10px;
     padding: 10px;
+    /* width: 100%; */
 }
 .quote{
-    width: 300px;
+    width: 370px;
     height: 400px;
     color: white;
     background-color:cadetblue;
@@ -146,26 +147,26 @@ body{
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 20px;
 }
 .coronaimg{
-    width: 500px;
+    /* width: 700px; */
     height: 400px;
     /* border: solid black 1px; */
     margin: 10px;
 }
 .vitaminimg{
-    width: 500px;
+    /* width: 700px; */
     height: 400px;
     /* border: solid black 1px; */
     margin: 10px;
 }
 .covid{
-    width: 400px;
+    width: 500px;
     height: 350px;
 }
 .multi{
-    width: 400px;
+    width: 500px;
     height: 350px;
 }
 .quotelink{
@@ -177,14 +178,14 @@ body{
 }
 .service{
     height: 650px;
-    width: 1175px;
+    /* width: 100%; */
     margin: 15px;
     margin-bottom: 0;
     padding: 10px;
     background-color: white;
     /* border: black solid 1px; */
     display: grid;
-    grid-template-columns: 400px 400px 400px;
+    grid-template-columns: 485px 485px 485px;
     grid-template-rows: 300px 300px 300px;
 }
 .card{
@@ -202,7 +203,7 @@ body{
 }
 .cardimg{
     margin: 5px;
-    width: 375px;
+    width: 430px;
     height: 225px;
 }
 .cardtext{
@@ -250,7 +251,7 @@ body{
     display: flex;
     box-sizing: border-box;
     height: 250px;
-    width: 100%;
+    /* width: 100%; */
     justify-content: space-between;
     background-color:rgba(69, 8, 8, 0.699);
     color: white;
