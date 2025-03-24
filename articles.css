@@ -146,3 +146,81 @@ body{
     color: white;
     font-weight: bold;
 }
+/* Responsive Design for Tablets and Mobile Devices */
+@media (max-width: 1024px) {
+    .centre {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .nav {
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .navimg {
+        width: 25%;
+    }
+
+    .navlinks {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .appoint {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .centre {
+        grid-template-columns: 1fr;
+    }
+
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navimg {
+        width: 40%;
+    }
+
+    .navlinks {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+    .appoint {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .quotelink {
+        font-size: 0.9rem;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 20px;
+        height: auto;
+    }
+
+    .box1, .box2, .box3 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .ftimg1 {
+        width: 80%;
+    }
+
+    .ftimg {
+        width: 12%;
+        height: auto;
+    }
+}

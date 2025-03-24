@@ -43,3 +43,83 @@ button:hover{
     background-color: aquamarine;
     transform: scale(1.02);
 }
+/* Responsive Design for Tablets */
+@media (max-width: 1024px) {
+    .container {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        overflow: auto;
+    }
+
+    .bgimg {
+        width: 100%;
+        height: auto;
+    }
+
+    .card {
+        position: static;
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+        font-size: 1rem;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    input[type="text"],
+    input[type="tel"],
+    input[type="date"],
+    input[type="email"],
+    input[type="time"] {
+        width: 100%;
+    }
+}
+
+/* Responsive Design for Mobile Phones */
+@media (max-width: 600px) {
+    h2 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .card {
+        width: 95%;
+        font-size: 0.95rem;
+        padding: 15px;
+    }
+
+    form {
+        font-size: 0.9rem;
+    }
+
+    label,
+    input {
+        display: block;
+        width: 100%;
+    }
+
+    input[type="radio"],
+    input[type="checkbox"] {
+        width: auto;
+        display: inline-block;
+    }
+
+    button {
+        width: 100%;
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+    .bgimg {
+        display: none; /* Hide background image on very small screens */
+    }
+
+    .container {
+        background-color: rgba(128, 128, 128, 0.1); /* fallback background */
+    }
+}

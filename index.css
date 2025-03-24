@@ -257,3 +257,103 @@ body{
     color: white;
     font-weight: bold;
 }
+/* ========== Responsive Styles ========== */
+
+/* Tablets and smaller (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navimg {
+        width: 40%;
+    }
+
+    .navlinks {
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .quoteimg {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .covid, .multi {
+        width: 100%;
+        height: auto;
+    }
+
+    .service {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+    }
+
+    .cardimg {
+        width: 100%;
+        height: auto;
+    }
+
+    .doctor {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .drpic, .drtext {
+        width: 90%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .drpicid, .drtextid {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+    }
+
+    .box1, .box2, .box3 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Phones (max-width: 768px) */
+@media (max-width: 768px) {
+    .wrapper h2 {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    .quote {
+        width: 100%;
+        height: auto;
+    }
+
+    .service {
+        grid-template-columns: 1fr;
+    }
+
+    .cardtext {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .appoint {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .navlinks {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
